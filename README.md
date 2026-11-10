@@ -12,7 +12,7 @@
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
 | 1 | 13020240291|Aidil Lutfi | @aidilluthfi07 |U1 |
-| 2 | | | @ | |
+| 2 |13020220153 | Samsudin Idris Renleew| @ |U2 |
 | 3 | | | @ | |
 | 4 | | | @ | |
 
@@ -23,7 +23,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | Kode | Berkas | Penanggung jawab | Status |
 |---|---|---|---|
 | U1 | laporan/U1-Konteks-dan-ASR.md |Aidil Luthfi | Selesai |
-| U2 | laporan/U2-Skenario-atribut-kualitas.md | | Belum |
+| U2 | laporan/U2-Skenario-atribut-kualitas.md | | Selesai|
 | U3 | laporan/U3-Taktik.md | | Belum |
 | U4 | laporan/U4-Pola.md | | Belum |
 | U5 | laporan/U5-Desain-dan-diagram.md | | Belum |
