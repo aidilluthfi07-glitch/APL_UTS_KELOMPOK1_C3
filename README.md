@@ -12,7 +12,7 @@
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
 | 1 | 13020240291|Aidil Lutfi | @aidilluthfi07 |U1 |
-| 2 |13020220153 | Samsudin Idris Renleew| @ |U2 |
+| 2 |13020220153 | Samsudin Idris Renleew| @samsudinrenleeuw-dotcom|U2 |
 | 3 | | | @ | |
 | 4 | | | @ | |
 
