@@ -27,9 +27,9 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | U2 | laporan/U2-Skenario-atribut-kualitas.md | | Belum |
 | U3 | laporan/U3-Taktik.md | | Belum |
 | U4 | laporan/U4-Pola.md | | Belum |
-| U5 | laporan/U5-Desain-dan-diagram.md dan adr/ | | Belum |
+| U5 | laporan/U5-Desain-dan-diagram.md | | Belum |
 | U6 | laporan/U6-Evaluasi .md | | Belum |
-| U7 | laporan/U7-Evaluasi .md | | Belum |
+| U7 | laporan/U7-ADR .md | | Belum |
 
 ## Laporan PDF terakhir
 
