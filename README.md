@@ -22,7 +22,6 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 
 | Kode | Berkas | Penanggung jawab | Status |
 |---|---|---|---|
-| BAB I | laporan/BAB1-pendahuluan.md | | Belum |
 | U1 | laporan/U1-Konteks-dan-ASR.md | | Belum |
 | U2 | laporan/U2-Skenario-atribut-kualitas.md | | Belum |
 | U3 | laporan/U3-Taktik.md | | Belum |
