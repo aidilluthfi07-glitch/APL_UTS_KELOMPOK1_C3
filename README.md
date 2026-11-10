@@ -1,19 +1,17 @@
-# Tugas Kelompok 1 – Arsitektur Perangkat Lunak (2 KKA 512)
-
-Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & Atribut Kualitas (Pertemuan 6).
+# UTS Kelompok 1 – Arsitektur Perangkat Lunak (2 KKA 512)
 
 | Keterangan | Isi |
 |---|---|
-| Kelompok | Bagian [I / II / III] – Kelompok [XX] |
-| Subsistem | [salin dari tabel 2.2 pada dokumen tugas] |
-| Layanan inti | [salin dari tabel 2.2 pada dokumen tugas] |
-| Perwakilan kelompok | [nama, stambuk] |
+| Kelompok | Bagian [II] – Kelompok [1] |
+| Subsistem | [Academic Management] |
+| Layanan inti | [Layanan pembayaran biaya pendidikan: informasi tagihan, pembayaran, konfirmasi, dan riwayat pembayaran] |
+| Perwakilan kelompok | [Aidil luthfi, 13020240291] |
 
 ## Anggota
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | | | @ | |
+| 1 | 13020240291|Aidil Lutfi | @aidilluthfi07 | |
 | 2 | | | @ | |
 | 3 | | | @ | |
 | 4 | | | @ | |
@@ -25,18 +23,13 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | Kode | Berkas | Penanggung jawab | Status |
 |---|---|---|---|
 | BAB I | laporan/BAB1-pendahuluan.md | | Belum |
-| A1 | laporan/A1-konteks-arsitektur.md | | Belum |
-| A2 | laporan/A2-stakeholder.md | | Belum |
-| A3 | laporan/A3-batasan.md | | Belum |
-| A4 | laporan/A4-asr.md | | Belum |
-| A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | | Belum |
-| B1 | laporan/B1-karakteristik.md | | Belum |
-| B2 | laporan/B2-atribut-terukur.md | | Belum |
-| B3 | laporan/B3-tiga-struktur.md dan diagram/ | | Belum |
-| B4 | laporan/B4-iso-25010.md | | Belum |
-| B5 | laporan/B5-trade-off.md | | Belum |
-| BAB IV | laporan/BAB4-penutup.md | | Belum |
-| Pustaka | laporan/daftar-pustaka.md | | Belum |
+| U1 | laporan/U1-Konteks-dan-ASR.md | | Belum |
+| U2 | laporan/U2-Skenario-atribut-kualitas.md | | Belum |
+| U3 | laporan/U3-Taktik.md | | Belum |
+| U4 | laporan/U4-Pola.md | | Belum |
+| U5 | laporan/U5-Desain-dan-diagram.md dan adr/ | | Belum |
+| U6 | laporan/U6-Evaluasi .md | | Belum |
+| U7 | laporan/U7-Evaluasi .md | | Belum |
 
 ## Laporan PDF terakhir
 
