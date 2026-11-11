@@ -11,7 +11,7 @@
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | 13020240291|Aidil Lutfi | @aidilluthfi07 |U1 |
+| 1 | 13020240291|Aidil Lutfi | @aidilluthfi07 |U1,U6,U7 |
 | 2 |13020220153 | Samsudin Idris Renleew| @samsudinrenleeuw-dotcom|U2 |
 | 3 |13020240002 | Andi Muhammad Fadel| @andifadel26 |U5 |
 | 4 |13020220017 | Muhammad Zulfikri Renhoran| @muhzulfikrirenhoran |U4 |
@@ -28,8 +28,8 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | U3 | laporan/U3-Taktik.md | | Belum |
 | U4 | laporan/U4-Pola.md |Muhammad Zulfikri Renhoran | Selesai |
 | U5 | laporan/U5-Desain-dan-diagram.md | | Selesai |
-| U6 | laporan/U6-Evaluasi .md | | Belum |
-| U7 | laporan/U7-ADR .md | | Belum |
+| U6 | laporan/U6-Evaluasi .md | Aidil Luthfi | Selesai |
+| U7 | laporan/U7-ADR .md | Aidil Luthfi | Selesai |
 
 ## Laporan PDF terakhir
 
