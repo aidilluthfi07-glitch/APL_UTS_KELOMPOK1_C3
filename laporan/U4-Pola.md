@@ -1,4 +1,4 @@
-# BAB III TAKTIK DAN POLA (Bagian U4 - Pola Arsitektur)
+# BAB III TAKTIK DAN POLA (Bagian U4 - Pola)
 
 ## 4.1 Perbedaan Gaya dan Pola Arsitektur
 Gaya arsitektur (*Architecture Style*) merujuk pada prinsip desain tingkat tinggi yang mengatur struktur dasar dan pedoman organisasi sistem secara keseluruhan (misalnya: *Microservices*, *Event-Driven*). Sementara itu, pola arsitektur (*Architecture Pattern*) adalah solusi spesifik yang dapat digunakan kembali untuk memecahkan masalah desain arsitektur pada ruang lingkup yang lebih sempit di dalam batasan gaya arsitektur tersebut (misalnya: *API Gateway*, *Publish-Subscribe*). Pada Layanan Pembayaran Biaya Pendidikan UMI, gaya arsitektur utamanya berorientasi pada layanan (terdistribusi), sedangkan pola diterapkan untuk menyelesaikan masalah spesifik terkait integrasi *payment gateway*.
