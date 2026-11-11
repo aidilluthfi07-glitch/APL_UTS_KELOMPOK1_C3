@@ -27,7 +27,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | U2 | laporan/U2-Skenario-atribut-kualitas.md | | Selesai|
 | U3 | laporan/U3-Taktik.md | | Belum |
 | U4 | laporan/U4-Pola.md |Muhammad Zulfikri Renhoran | Selesai |
-| U5 | laporan/U5-Desain-dan-diagram.md | | Selesai |
+| U5 | laporan/U5-Desain-dan-diagram.md |Andi Muhammad Fadel | Selesai |
 | U6 | laporan/U6-Evaluasi .md | Aidil Luthfi | Selesai |
 | U7 | laporan/U7-ADR .md | Aidil Luthfi | Selesai |
 
