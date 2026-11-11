@@ -1,6 +1,7 @@
 # BAB V -- DESAIN DAN DIAGRAM ARSITEKTUR (U5)
 
 5.1 Pendahuluan
+
 Tahap desain dan diagram merupakan bagian dari perancangan arsitektur sistem yang bertujuan untuk menggambarkan struktur, komponen, interaksi, serta infrastruktur yang mendukung layanan pembayaran biaya pendidikan (UKT) pada subsistem Academic Management.
 
 Perancangan ini disusun berdasarkan permasalahan yang telah dibahas pada bagian sebelumnya, yaitu adanya potensi biaya administrasi tambahan ketika mahasiswa melakukan pembayaran UKT melalui bank yang berbeda dengan bank mitra perguruan tinggi. Biaya tersebut dapat terdiri atas biaya administrasi Virtual Account (VA) dan biaya transfer antarbank yang dikenakan oleh bank asal mahasiswa.
@@ -10,6 +11,7 @@ Oleh karena itu, rancangan sistem tidak hanya berfokus pada keberhasilan transak
 Desain ini mengusulkan mekanisme pengelolaan biaya pembayaran agar mahasiswa dapat mengetahui rincian biaya sebelum mengonfirmasi transaksi. Target utama rancangan adalah meminimalkan biaya tambahan hingga Rp0 melalui kebijakan dan kerja sama dengan pihak bank atau penyedia layanan pembayaran. Namun, pencapaian target tersebut tetap bergantung pada ketentuan tarif dan kesepakatan dengan pihak terkait.
 
 5.2 Tujuan Perancangan
+
 Tujuan dari perancangan arsitektur sistem pembayaran UKT adalah:
 1. Menggambarkan hubungan antara sistem pembayaran UKT dengan pihak-pihak yang terlibat.
 2. Menjelaskan komponen utama yang mendukung proses pembayaran UKT.
@@ -19,6 +21,7 @@ Tujuan dari perancangan arsitektur sistem pembayaran UKT adalah:
 6. Mengurangi risiko kesalahan pencatatan, ketidakjelasan biaya, dan potensi pembebanan biaya administrasi ganda.
 
 5.3 Desain Arsitektur Sistem
+
 Arsitektur yang diusulkan menggunakan pendekatan berbasis layanan (service-based architecture). Setiap komponen memiliki tanggung jawab tertentu dan saling berkomunikasi untuk mendukung proses pembayaran UKT.
 
 Secara umum, sistem terdiri atas beberapa bagian berikut:
@@ -32,7 +35,8 @@ Secara umum, sistem terdiri atas beberapa bagian berikut:
 Komponen-komponen tersebut dirancang agar proses pembayaran dapat berjalan secara terstruktur, mudah dipantau, dan memiliki informasi biaya yang transparan.
 
 5.4 Diagram Arsitektur Sistem
-5.4.1 Diagram Konteks
+
+1. Diagram Konteks
 Diagram konteks menggambarkan hubungan antara sistem pembayaran UKT dengan entitas eksternal yang berinteraksi di dalam proses pembayaran.
 
 Entitas yang terlibat meliputi:
@@ -58,7 +62,8 @@ Alur interaksi:
 Mahasiswa mengakses sistem untuk memperoleh informasi tagihan dan melakukan pembayaran. Sistem kemudian berkomunikasi dengan bank atau penyedia pembayaran untuk memproses transaksi. Setelah transaksi selesai, informasi status pembayaran dikirimkan kembali kepada sistem. Petugas keuangan dapat memantau transaksi dan melakukan rekonsiliasi, sedangkan pimpinan universitas memperoleh laporan pembayaran.
 
 Dengan adanya diagram konteks, batas sistem dan hubungan antara sistem dengan pihak eksternal dapat diidentifikasi secara lebih jelas.
-5.4.2 Diagram Komponen
+2.Diagram Komponen
+
 Diagram komponen menggambarkan bagian-bagian utama yang membentuk sistem pembayaran UKT beserta hubungan antarkomponennya.
 
 Komponen yang dirancang adalah sebagai berikut:
@@ -92,7 +97,8 @@ Komponen ini menjadi salah satu bagian penting dalam rancangan karena berkaitan 
 - Menerapkan kebijakan biaya berdasarkan kesepakatan kampus dengan bank atau penyedia pembayaran.
 - Mencegah mahasiswa mengonfirmasi pembayaran tanpa memperoleh informasi biaya yang tersedia.
 Apabila biaya transfer dari bank asal tidak dapat diketahui secara langsung oleh sistem, informasi tersebut harus dinyatakan secara jelas sebagai biaya yang ditentukan oleh bank asal, bukan dianggap sudah tercakup dalam biaya VA.
-5.4.3 Sequence Diagram – Proses Pembayaran UKT
+3. Sequence Diagram – Proses Pembayaran UKT
+  
 Sequence diagram menggambarkan urutan komunikasi antara mahasiswa, aplikasi, layanan pengelolaan pembayaran, bank atau penyedia pembayaran, dan layanan pencatatan transaksi.
 
 Urutan proses pembayaran dirancang sebagai berikut:
@@ -113,7 +119,8 @@ Urutan proses pembayaran dirancang sebagai berikut:
 Jika transaksi gagal, sistem menampilkan status kegagalan dan informasi yang relevan agar mahasiswa dapat mengetahui kondisi pembayaran.
 
 Rancangan ini menempatkan transparansi biaya sebelum konfirmasi sebagai bagian penting dari alur pembayaran. Dengan demikian, mahasiswa tidak hanya mengetahui nominal UKT, tetapi juga memperoleh informasi mengenai biaya tambahan yang berlaku sebelum menyelesaikan transaksi.
-5.4.4 Deployment Diagram
+4. Deployment Diagram
+
 Deployment diagram menggambarkan rancangan penempatan komponen sistem pada perangkat dan infrastruktur yang mendukung layanan pembayaran UKT.
 
 Rancangan infrastruktur terdiri atas:
@@ -149,6 +156,7 @@ Seluruh aktivitas penting dicatat melalui mekanisme monitoring dan logging untuk
 Penempatan ini merupakan rancangan konseptual. Teknologi server, basis data, metode integrasi, dan infrastruktur aktual perlu disesuaikan dengan implementasi yang digunakan dalam repository.
 
 5.5 Mekanisme Transparansi Biaya Pembayaran
+
 Mekanisme transparansi biaya merupakan bagian penting dari desain sistem karena permasalahan utama yang dihadapi adalah potensi pembebanan biaya administrasi lebih dari satu kali.
 
 Sistem dirancang untuk menampilkan rincian biaya sebelum mahasiswa menyelesaikan transaksi. Informasi biaya setidaknya mencakup:
@@ -170,6 +178,7 @@ Sistem harus menghindari penyajian informasi yang menyesatkan. Apabila tarif dar
 Dengan mekanisme tersebut, mahasiswa memperoleh informasi yang lebih jelas mengenai biaya pembayaran. Di sisi lain, pihak universitas dapat menggunakan informasi tersebut sebagai dasar evaluasi kerja sama dengan bank dan penyedia pembayaran.
 
 5.6 Pertimbangan Kualitas Arsitektur
+
 Desain arsitektur sistem pembayaran UKT memperhatikan beberapa atribut kualitas berikut.
 
 1. Security (Keamanan)
@@ -197,6 +206,7 @@ Antarmuka harus mudah dipahami, khususnya ketika mahasiswa melihat tagihan, memi
 Komponen pengelolaan biaya perlu dirancang agar kebijakan tarif dan kanal pembayaran dapat diperbarui tanpa mengubah keseluruhan sistem.
 
 5.7 Hubungan Desain dengan Permasalahan
+
 Rancangan arsitektur ini disusun untuk menjawab permasalahan yang telah diidentifikasi pada tahap sebelumnya.
 
 Potensi biaya administrasi ganda ditangani melalui komponen Fee Disclosure & Payment Cost Policy yang bertugas mengelola informasi biaya dan menampilkan rincian biaya sebelum transaksi dikonfirmasi.
@@ -208,6 +218,7 @@ Sementara itu, kebutuhan pemantauan pembayaran ditangani melalui fungsi pengelol
 Rancangan ini diharapkan dapat meningkatkan transparansi, keandalan, dan kemudahan penggunaan layanan pembayaran UKT.
 
 5.8 Kesimpulan
+
 Berdasarkan hasil perancangan, sistem pembayaran UKT pada subsistem Academic Management dirancang dengan beberapa komponen utama yang saling terintegrasi untuk mendukung proses pembayaran, mulai dari penyajian informasi tagihan hingga pencatatan status transaksi. Rancangan ini juga menambahkan komponen Fee Disclosure & Payment Cost Policy sebagai upaya mengatasi potensi biaya administrasi ganda melalui penyajian rincian biaya secara transparan sebelum mahasiswa melakukan konfirmasi pembayaran.
 
 Melalui diagram konteks, diagram komponen, sequence diagram, dan deployment diagram, struktur serta alur kerja sistem dapat dijelaskan secara lebih terarah. Desain ini diharapkan menjadi dasar pengembangan sistem pembayaran UKT yang lebih transparan, aman, andal, dan berorientasi pada kebutuhan mahasiswa.
