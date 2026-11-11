@@ -1,0 +1,6 @@
+flowchart LR
+ M[Mahasiswa] -->|Lihat tagihan / mulai bayar| P[Portal Akademik UMI]
+ F[Petugas Keuangan] -->|Monitoring dan rekonsiliasi| P
+ P --> A[Layanan Pembayaran Pendidikan]
+ A <-->|API pembayaran / callback| G[Penyedia Payment Gateway / Bank / QRIS]
+ A -->|Status dan riwayat| P
