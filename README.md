@@ -15,6 +15,7 @@
 | 2 |13020220153 | Samsudin Idris Renleew| @samsudinrenleeuw-dotcom|U2 |
 | 3 |13020240002 | Andi Muhammad Fadel| @andifadel26 |U5 |
 | 4 |13020220017 | Muhammad Zulfikri Renhoran| @muhzulfikrirenhoran |U4 |
+| 5 |13020240298 | Putra Satria Pratama| @raputsatria |U3 |
 
 ## Peta berkas dan penanggung jawab
 
