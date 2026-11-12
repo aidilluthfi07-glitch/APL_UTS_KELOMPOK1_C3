@@ -21,11 +21,13 @@ Untuk membuktikan bahwa masalah biaya admin ganda ini benar-benar terjadi, berik
 
 * **Bukti 1 (Tangkapan Layar Halaman Tagihan Portal UMI):** Bukti tampilan pada `BillingInfoService` dan `PaymentGatewayService` yang menunjukkan bahwa mahasiswa hanya diberikan pilihan pembayaran melalui *Virtual Account* bank mitra, disertai adanya tambahan biaya admin di luar tagihan pokok kuliah.
 
-  ![Bukti 1 - Halaman Tagihan dan Biaya Admin VA](../bukti-data/tagihan.png)
+ <img width="1384" height="614" alt="tagihan" src="https://github.com/user-attachments/assets/62b4e173-0079-48b8-869a-fa629db7704d" />
+
 
 * **Bukti 2 (Bukti Struk Transfer Antarbank):** Bukti struk pembayaran dari aplikasi *mobile banking* bank lain milik mahasiswa saat mentransfer ke nomor VA UMI. Pada struk tersebut terlihat mahasiswa terkena potongan ganda, yaitu biaya admin VA (Rp2.500–Rp3.000) ditambah biaya transfer beda bank (Rp2.500 melalui BI-FAST atau Rp6.500 melalui transfer *online* reguler), sehingga mahasiswa harus mengeluarkan biaya ekstra hingga Rp5.000–Rp9.500 untuk sekali transaksi.
 
-  ![Bukti 2 - Struk Transfer Lintas Bank](../bukti-data/struk.png)
+<img width="271" height="346" alt="struk" src="https://github.com/user-attachments/assets/4e5d0202-4ca1-40da-a9d1-9d5b097e0eab" />
+
 
 ## 1.4 Pemangku Kepentingan (*Stakeholders*)
 Masalah dan perbaikan pada sistem pembayaran ini berkaitan langsung dengan empat pihak utama:
