@@ -25,7 +25,7 @@ Untuk membuktikan bahwa masalah biaya admin ganda ini benar-benar terjadi, berik
 
 * **Bukti 2 (Bukti Struk Transfer Antarbank):** Bukti struk pembayaran dari aplikasi *mobile banking* bank lain milik mahasiswa saat mentransfer ke nomor VA UMI. Pada struk tersebut terlihat mahasiswa terkena potongan ganda, yaitu biaya admin VA (Rp2.500–Rp3.000) ditambah biaya transfer beda bank (Rp2.500 melalui BI-FAST atau Rp6.500 melalui transfer *online* reguler), sehingga mahasiswa harus mengeluarkan biaya ekstra hingga Rp5.000–Rp9.500 untuk sekali transaksi.
 
-  ![Bukti 2 - Struk Transfer Lintas Bank](../bukti-data/Struk.jpeg)
+  ![Bukti 2 - Struk Transfer Lintas Bank](../bukti-data/struk.jpeg)
 
 ## 1.4 Pemangku Kepentingan (*Stakeholders*)
 Masalah dan perbaikan pada sistem pembayaran ini berkaitan langsung dengan empat pihak utama:
